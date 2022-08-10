@@ -6,8 +6,8 @@ const subtract = function(x,y) {
 	return x-y;
 };
 
-const sum = function(array) {
-  return array.reduce((total, num) => {
+const sum = function(arr) {
+  return arr.reduce((total, num) => {
     return total + num;
   }, 0);
 };
